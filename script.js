@@ -56,7 +56,7 @@ submitBtn.addEventListener("click", () => {
     // Speak the greeting with name after a short delay (so the step-2 is visible first)
     setTimeout(() => {
       speakGreeting(name);
-    }, 110); // 110ms delay before starting the speech
+    }, 100); // 100ms delay before starting the speech
   } else {
     alert("Please enter your name.");
   }
